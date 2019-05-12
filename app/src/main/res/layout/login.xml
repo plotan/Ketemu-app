@@ -11,17 +11,17 @@
 
 
   <ImageView
-      android:layout_marginTop="30dp"
-      android:layout_width="220dp"
-      android:src="@drawable/ic_person"
+      android:layout_marginTop="20dp"
+      android:layout_width="120dp"
+      android:src="@drawable/sidik"
+      android:layout_marginLeft="6dp"
       android:layout_height="210dp"
-      android:layout_marginLeft="-20dp"
       />
 
   <TextView
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:text="WELCOME"
+      android:text="KETEMU"
       android:textSize="30sp"
       android:textStyle="bold"
       android:id="@+id/ketemutext"
@@ -45,6 +45,7 @@
       android:layout_marginTop="280dp"/>
 
   <EditText
+      android:id="@+id/emailLogin"
       android:layout_width="360dp"
       android:drawableTint="#009688"
       android:drawableLeft="@drawable/ic_person"
@@ -63,7 +64,7 @@
       android:layout_width="360dp"
       android:layout_height="wrap_content"
       android:inputType="textPassword"
-      android:id="@+id/pass"
+      android:id="@+id/passLogin"
       android:drawableTint="#009688"
       android:layout_marginTop="370dp"
       android:layout_marginStart="20dp"
@@ -73,14 +74,14 @@
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:text="Forgot password"
-      android:layout_below="@+id/pass"
+      android:layout_below="@+id/passLogin"
       android:layout_marginLeft="270dp"/>
 
   <Button
       android:layout_width="150dp"
       android:layout_height="wrap_content"
       android:layout_marginTop="45dp"
-      android:layout_below="@+id/pass"
+      android:layout_below="@+id/passLogin"
       android:layout_centerHorizontal="true"
       android:background="@drawable/cust_btnlogres"
       android:gravity="center"

@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
     BarangAdapter adapter;
 
     List<Barang> barangList;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

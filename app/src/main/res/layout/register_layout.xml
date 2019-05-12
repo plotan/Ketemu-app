@@ -5,14 +5,15 @@
 
     <ImageView
         android:id="@+id/imgReg"
-        android:layout_width="match_parent"
-        android:layout_height="230dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="120dp"
+        android:layout_height="200dp"
         android:drawableTint="#009688"
-        android:src="@drawable/ic_person"/>
+        android:src="@drawable/sidik"/>
 
     <TextView
         android:id="@+id/crtnone"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="9dp"
         android:textColor="#CFCBCB"
         style="@style/TextAppearance.AppCompat.Body2"
         android:gravity="center_horizontal"
@@ -28,49 +29,62 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <EditText
-            android:id="@+id/namalengkapreg"
-            android:drawableLeft="@drawable/ic_person"
-            android:layout_width="match_parent"
-            android:drawableTint="#009688"
-            android:layout_height="wrap_content"
-            android:hint="Full name"/>
+        <!--<EditText-->
+            <!--android:id="@+id/namalengkapreg"-->
+            <!--android:drawableLeft="@drawable/ic_person"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:drawableTint="#009688"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:hint="Full name"/>-->
 
-        <EditText
-            android:id="@+id/userreg"
-            android:layout_marginTop="12dp"
-            android:drawableLeft="@drawable/ic_person"
-            android:paddingLeft="5dp"
-            android:drawableTint="#009688"
-            android:layout_below="@+id/namalengkapreg"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Username"
-            />
+        <!--<EditText-->
+            <!--android:id="@+id/userreg"-->
+            <!--android:layout_marginTop="12dp"-->
+            <!--android:drawableLeft="@drawable/ic_person"-->
+            <!--android:paddingLeft="5dp"-->
+            <!--android:drawableTint="#009688"-->
+            <!--android:layout_below="@+id/namalengkapreg"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:hint="Username"-->
+            <!--/>-->
+
         <EditText
             android:id="@+id/passreg"
             android:paddingLeft="5dp"
             android:drawableTint="#009688"
-            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            android:drawableLeft="@drawable/ic_person"
             android:layout_marginTop="12dp"
-            android:layout_below="@id/userreg"
+            android:layout_below="@id/crtnone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPassword"
-            android:hint="Password"
+            android:hint="Email"
             />
         <EditText
-            android:drawableLeft="@drawable/ic_person"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
             android:id="@+id/emailReg"
             android:paddingLeft="5dp"
             android:drawableTint="#009688"
             android:layout_marginTop="12dp"
+            android:inputType="textPassword"
             android:layout_below="@id/passreg"
             android:hint="Email Address"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
+
+        <!--<EditText-->
+            <!--android:drawableLeft="@drawable/ic_person"-->
+            <!--android:id="@+id/noHpReg"-->
+            <!--android:paddingLeft="5dp"-->
+            <!--android:drawableTint="#009688"-->
+            <!--android:layout_marginTop="12dp"-->
+            <!--android:layout_below="@id/emailReg"-->
+            <!--android:hint="No handphone"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content" />-->
+
         <Button
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="25dp"
             android:textColor="#fff"
             android:text="Create New Account"
             android:background="@drawable/cust_btnlogres"

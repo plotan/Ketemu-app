@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "138836658419",
+    "firebase_url": "https://ketemu-89621.firebaseio.com",
+    "project_id": "ketemu-89621",
+    "storage_bucket": "ketemu-89621.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138836658419:android:24bc56cc15936960",
+        "android_client_info": {
+          "package_name": "com.example.ketemu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138836658419-i4i7si0i43949jgvn00ub3q8ck4k5f40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAw0PVAAaRsuNexyCRMkfzDZliF8dqowSg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138836658419-i4i7si0i43949jgvn00ub3q8ck4k5f40.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
