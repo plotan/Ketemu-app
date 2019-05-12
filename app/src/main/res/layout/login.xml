@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <ImageView
+      android:layout_marginTop="30dp"
+      android:layout_width="220dp"
+      android:layout_height="210dp"
+      android:layout_marginLeft="-20dp"
+      />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Ketemu"
+      android:textSize="30sp"
+      android:textStyle="bold"
+      android:id="@+id/ketemutext"
+      android:layout_marginTop="200dp"
+      android:layout_marginStart="20dp"
+
+      />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="20dp"
+      android:text="Sign in to continue"
+      android:layout_marginTop="240dp"
+      android:id="@+id/signto"/>
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Email"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="280dp"/>
+
+  <EditText
+      android:layout_width="360dp"
+      android:drawableLeft="@drawable/ic_person"
+      android:layout_marginTop="300dp"
+      android:layout_marginStart="20dp"
+      android:layout_height="wrap_content"
+      />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Password"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="350dp"/>
+
+  <EditText
+      android:layout_width="360dp"
+      android:layout_height="wrap_content"
+      android:inputType="textPassword"
+      android:id="@+id/pass"
+      android:layout_marginTop="370dp"
+      android:layout_marginStart="20dp"
+      android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+      />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Forgot password"
+      android:layout_below="@+id/pass"
+      android:layout_marginLeft="270dp"/>
+
+  <Button
+      android:layout_width="150dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="45dp"
+      android:layout_below="@+id/pass"
+      android:layout_centerHorizontal="true"
+      android:background="@color/colorAccent"
+      android:gravity="center"
+      android:id="@+id/btnlogin"
+      android:text="Login"
+      android:textColor="#ffff" />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="New User?"
+      android:layout_below="@+id/btnlogin"
+      android:id="@+id/nwuser"
+      android:layout_marginLeft="140dp"
+      android:layout_marginTop="10dp"
+      />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Signup"
+      android:layout_below="@+id/btnlogin"
+      android:id="@+id/sgnup"
+      android:layout_marginLeft="210dp"
+      android:layout_marginTop="10dp"
+      android:textColor="@color/colorAccent"
+      />
+
+
+</RelativeLayout>
