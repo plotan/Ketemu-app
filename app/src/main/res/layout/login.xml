@@ -13,6 +13,7 @@
   <ImageView
       android:layout_marginTop="30dp"
       android:layout_width="220dp"
+      android:src="@drawable/ic_person"
       android:layout_height="210dp"
       android:layout_marginLeft="-20dp"
       />
@@ -20,7 +21,7 @@
   <TextView
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:text="Ketemu"
+      android:text="WELCOME"
       android:textSize="30sp"
       android:textStyle="bold"
       android:id="@+id/ketemutext"
@@ -45,6 +46,7 @@
 
   <EditText
       android:layout_width="360dp"
+      android:drawableTint="#009688"
       android:drawableLeft="@drawable/ic_person"
       android:layout_marginTop="300dp"
       android:layout_marginStart="20dp"
@@ -62,6 +64,7 @@
       android:layout_height="wrap_content"
       android:inputType="textPassword"
       android:id="@+id/pass"
+      android:drawableTint="#009688"
       android:layout_marginTop="370dp"
       android:layout_marginStart="20dp"
       android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
@@ -79,10 +82,11 @@
       android:layout_marginTop="45dp"
       android:layout_below="@+id/pass"
       android:layout_centerHorizontal="true"
-      android:background="@color/colorAccent"
+      android:background="@drawable/cust_btnlogres"
       android:gravity="center"
+      android:elevation="20dp"
       android:id="@+id/btnlogin"
-      android:text="Login"
+      android:text="Sign In"
       android:textColor="#ffff" />
 
   <TextView
@@ -97,7 +101,7 @@
   <TextView
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:text="Signup"
+      android:text="Sign Up"
       android:layout_below="@+id/btnlogin"
       android:id="@+id/sgnup"
       android:layout_marginLeft="210dp"

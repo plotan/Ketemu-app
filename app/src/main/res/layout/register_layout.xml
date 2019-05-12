@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgReg"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:drawableTint="#009688"
+        android:src="@drawable/ic_person"/>
+
+    <TextView
+        android:id="@+id/crtnone"
+        android:layout_marginTop="12dp"
+        android:textColor="#CFCBCB"
+        style="@style/TextAppearance.AppCompat.Body2"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/imgReg"
+        android:textSize="23sp"
+        android:layout_width="match_parent"
+        android:text="Create New Account"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_margin="15dp"
+        android:layout_below="@id/crtnone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/namalengkapreg"
+            android:drawableLeft="@drawable/ic_person"
+            android:layout_width="match_parent"
+            android:drawableTint="#009688"
+            android:layout_height="wrap_content"
+            android:hint="Full name"/>
+
+        <EditText
+            android:id="@+id/userreg"
+            android:layout_marginTop="12dp"
+            android:drawableLeft="@drawable/ic_person"
+            android:paddingLeft="5dp"
+            android:drawableTint="#009688"
+            android:layout_below="@+id/namalengkapreg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            />
+        <EditText
+            android:id="@+id/passreg"
+            android:paddingLeft="5dp"
+            android:drawableTint="#009688"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            android:layout_marginTop="12dp"
+            android:layout_below="@id/userreg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Password"
+            />
+        <EditText
+            android:drawableLeft="@drawable/ic_person"
+            android:id="@+id/emailReg"
+            android:paddingLeft="5dp"
+            android:drawableTint="#009688"
+            android:layout_marginTop="12dp"
+            android:layout_below="@id/passreg"
+            android:hint="Email Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginTop="40dp"
+            android:textColor="#fff"
+            android:text="Create New Account"
+            android:background="@drawable/cust_btnlogres"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/emailReg"
+            android:layout_width="220dp"
+            android:layout_height="48dp" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
