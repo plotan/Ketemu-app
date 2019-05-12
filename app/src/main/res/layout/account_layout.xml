@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contlogin"
+    tools:context=".AccountActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigationMenu"
+        app:itemTextColor="@drawable/navbar_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF"
+        app:menu="@menu/navigation_menu" />
+
+    <ImageView
+        android:id="@+id/bgAcc"
+        android:background="#DA4167"
+        android:layout_width="match_parent"
+        android:layout_height="280dp" />
+    <TextView
+        android:id="@+id/namaEmail"
+        android:layout_width="match_parent"
+        android:layout_height="19dp"
+        android:textColor="#353433"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/imgAcc"
+        android:text="munand@student.itera.ac.id"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        style="@style/TextAppearance.AppCompat.Body2"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:textColor="#fff"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/namaEmail"
+        android:text="Dedi Munandar"
+        />
+    <ImageView
+        android:id="@+id/imgAcc"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="#fff"
+        android:src="@drawable/ic_person"
+        />
+    <Button
+        android:id="@+id/namaAcc"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical|center_horizontal"
+        style="@style/TextAppearance.AppCompat.Body2"
+        android:text="Edit Profile"
+        android:textColor="#fff"
+        android:layout_marginTop="240dp"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:background="@drawable/cust_button"/>
+
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/bgAcc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/btnNama"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/cust_btn_acc"
+            android:textColor="#fff"
+            android:drawableTint="#fff"
+            android:layout_marginStart="0dp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="12dp"
+            android:text="Nama"
+            android:drawableLeft="@drawable/ic_person"
+            android:layout_width="match_parent"
+            android:layout_height="55dp" />
+
+        <Button
+            android:id="@+id/btnPassword"
+            android:layout_below="@id/btnNama"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/cust_btn_acc"
+            android:textColor="#fff"
+            android:drawableTint="#fff"
+            android:layout_marginStart="0dp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="12dp"
+            android:text="Password"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp" />
+
+        <Button
+            android:id="@+id/btnEmail"
+            android:layout_below="@id/btnPassword"
+            android:background="@drawable/cust_btn_acc"
+            android:textColor="#fff"
+            android:layout_marginBottom="2dp"
+            android:drawableTint="#fff"
+            android:layout_marginStart="0dp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="12dp"
+            android:text="Email"
+            android:drawableLeft="@drawable/ic_person"
+            android:layout_width="match_parent"
+            android:layout_height="55dp" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
